@@ -1,9 +1,6 @@
 # Terrain3D
 Three-dimensional visualisation of terrain data from digital elevation models (DEMs) or climate model topography with [PyVista](https://docs.pyvista.org). A set of Python example scripts illustrates how this data can be plotted for various domains and with auxiliary information.
 
-When you use Terrain3D, please cite:
-
-[![DOI](https://zenodo.org/badge/599311358.svg)](https://zenodo.org/badge/latestdoi/599311358)
 
 # Package dependencies
 
@@ -46,7 +43,6 @@ A number of examples scripts are provided in the folder *visualisation*:
 ![Alt text](https://github.com/ChristianSteger/Media/blob/master/Terrain3D/Tri_mesh_globe.png?raw=true "Output from tri_mesh_globe.py")
 
 - **tri_mesh_vertical_grid.py**: Visualise GEBCO or MERIT data for subregion in Switzerland with a triangle mesh. Use a planar map projection and display 'idealised' vertical grid of a GCM/RCM. Optionally display lakes.
-![Alt text](https://github.com/ChristianSteger/Media/blob/master/Terrain3D/Tri_mesh_vertical_grid.png?raw=true "Output from tri_mesh_vertical_grid.py")
 
 - **tri_mesh_terrain_horizon.py**: Visualise MERIT data for a subregion in Switzerland with a triangle mesh on a planar map projection. Illustrate the algorithm to compute terrain horizon (according to [HORAYZON](https://doi.org/10.5194/gmd-15-6817-2022)) in an animation. Combining the invividual images of the animation into a movie or GIF requires [FFmpeg](https://ffmpeg.org) or [ImageMagick](https://imagemagick.org/index.php), respecitvely.
 ![Alt text](https://github.com/ChristianSteger/Media/blob/master/Terrain3D/Tri_mesh_terrain_horizon.gif?raw=true "Output from tri_mesh_terrain_horizon.py")
@@ -78,7 +74,3 @@ And the following auxiliary data is applied:
 - [GSHHG](https://www.soest.hawaii.edu/pwessel/gshhg/)
 - [Natural Earth - Glaciated Areas](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-glaciated-areas/)
 - [Natural Earth - Antarctic Ice Shelves](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-antarctic-ice-shelves/)
-
-# Support and collaboration
-
-In case of issues or questions, contact Christian R. Steger (christian.steger@env.ethz.ch). Please report any bugs you find in Terrain3D. You are welcome to fork this repository to modify the source code.
